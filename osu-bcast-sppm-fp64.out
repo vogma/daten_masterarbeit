@@ -1,0 +1,37 @@
+New Instance
+New Instance
+New Instance
+New Instance
+Hi Init hello
+Hi Init hello
+Hi Init hello
+Hi Init hello
+
+# OSU MPI-CUDA Broadcast Latency Test
+# Size       Avg Latency(us)
+1                      49.10
+2                      48.58
+4                      48.04
+8                      65.66
+16                     65.48
+32                     65.29
+64                     66.05
+128                    65.18
+256                    63.95
+512                    64.68
+1024                   66.05
+2048                   65.45
+4096                   66.27
+8192                   65.41
+16384                  66.43
+32768                  90.06
+65536                  79.04
+131072                 87.51
+262144                 89.56
+524288                 96.00
+1048576               111.37
+2097152               133.45
+4194304               324.59
+8388608               401.30
+16777216              859.97
+33554432             2211.16
