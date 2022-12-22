@@ -1,0 +1,13 @@
+NDZIP:=/p/project/icei-hbp-2022-0013/vogel6/ndzip_copy
+CUDA:=/p/software/jusuf/stages/2020/software/CUDA/11.3
+BOOST:=/home/marco/entwicklung/boost
+HOME:=/home/marco/entwicklung/Master/Masterarbeit/code/compression/ndzip/
+NDZIP_C_LIBRARY:=/p/project/icei-hbp-2022-0013/vogel6/ndzip_c_library
+
+all: osu_latency.o osu_latency
+
+osu_latency.o: osu_latency.c Makefile_latency
+	mpicc -I. -I$(NDZIP_C_LIBRARY) -I$(CUDA)/include  -I../../util  -g -O2 -c -o osu_latency.o osu_latency.c
+
+osu_latency: osu_latency.o Makefile_latency
+	mpic++  -g -O2 -L$(NDZIP_C_LIBRARY) -L$(CUDA)/lib64 -lndzip_api_c_connector -Wl,-rpath=$(CUDA)/lib64  -o osu_latency osu_latency.o ../../util/osu_util.o ../../util/osu_util_mpi.o ../../util/kernel.o  -lcudart -lcuda -lm
