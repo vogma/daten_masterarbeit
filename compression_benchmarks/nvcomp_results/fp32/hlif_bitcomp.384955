@@ -1,0 +1,55 @@
+----------
+uncompressed (B): 97059484
+comp_size: 97154416, compressed ratio: 1.00
+compression throughput (GB/s): 14.19
+decompression throughput (GB/s): 316.61
+----------
+uncompressed (B): 145052928
+comp_size: 145194700, compressed ratio: 1.00
+compression throughput (GB/s): 20.11
+decompression throughput (GB/s): 329.23
+----------
+uncompressed (B): 139497932
+comp_size: 44941896, compressed ratio: 3.10
+compression throughput (GB/s): 20.80
+decompression throughput (GB/s): 299.38
+----------
+uncompressed (B): 62865612
+comp_size: 61864100, compressed ratio: 1.02
+compression throughput (GB/s): 9.63
+decompression throughput (GB/s): 312.18
+----------
+uncompressed (B): 70920000
+comp_size: 70989404, compressed ratio: 1.00
+compression throughput (GB/s): 10.79
+decompression throughput (GB/s): 305.18
+----------
+uncompressed (B): 53673984
+comp_size: 49981428, compressed ratio: 1.07
+compression throughput (GB/s): 8.13
+decompression throughput (GB/s): 241.93
+----------
+uncompressed (B): 79752372
+comp_size: 78987064, compressed ratio: 1.01
+compression throughput (GB/s): 12.15
+decompression throughput (GB/s): 308.87
+----------
+uncompressed (B): 17544800
+comp_size: 17562076, compressed ratio: 1.00
+compression throughput (GB/s): 2.51
+decompression throughput (GB/s): 226.19
+----------
+uncompressed (B): 31080408
+comp_size: 31110896, compressed ratio: 1.00
+compression throughput (GB/s): 4.52
+decompression throughput (GB/s): 261.80
+----------
+uncompressed (B): 9465264
+comp_size: 9474656, compressed ratio: 1.00
+compression throughput (GB/s): 1.38
+decompression throughput (GB/s): 175.44
+----------
+uncompressed (B): 99090432
+comp_size: 99187304, compressed ratio: 1.00
+compression throughput (GB/s): 13.69
+decompression throughput (GB/s): 329.00
