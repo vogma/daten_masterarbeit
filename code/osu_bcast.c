@@ -19,7 +19,7 @@ void fill_buffer(double *send_buffer, int size) {
   FILE *fileptr;
   char *buffer;
 
-  fileptr = fopen("/p/scratch/icei-hbp-2022-0013/vogel6/fp64/num_brain.fp64", "rb");
+  fileptr = fopen("/p/scratch/project/user/fp64/num_brain.fp64", "rb");
 
   buffer = (char *)malloc(size * sizeof(char));
   fread(buffer, size, sizeof(char), fileptr);

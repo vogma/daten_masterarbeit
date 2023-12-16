@@ -1,8 +1,8 @@
-NDZIP:=/p/project/icei-hbp-2022-0013/vogel6/ndzip_copy
+NDZIP:=/p/project/project/user/ndzip_copy
 CUDA:=/p/software/jusuf/stages/2020/software/CUDA/11.3
 BOOST:=/home/marco/entwicklung/boost
 HOME:=/home/marco/entwicklung/Master/Masterarbeit/code/compression/ndzip/
-NDZIP_C_LIBRARY:=/p/project/icei-hbp-2022-0013/vogel6/ndzip_c_library
+NDZIP_C_LIBRARY:=/p/project/project/user/ndzip_c_library
 
 all: osu_bcast.o osu_bcast
 

@@ -6,14 +6,14 @@
 Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/p/software/jusuf/lmod/8.7.12/init/bash)
 Shell debugging restarted
 + unset __lmod_vx
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/msg_lu.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/msg_sp.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/msg_sppm.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/msg_sweep3d.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/num_brain.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/num_comet.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/num_control.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/num_plasma.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/obs_error.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/obs_info.fp64
-+ /p/project/icei-hbp-2022-0013/vogel6/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/icei-hbp-2022-0013/vogel6/fp64/obs_spitzer.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/msg_lu.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/msg_sp.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/msg_sppm.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/msg_sweep3d.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/num_brain.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/num_comet.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/num_control.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/num_plasma.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/obs_error.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/obs_info.fp64
++ /p/project/project/user/nvcomp_library/nvcomp_build/bin/benchmark_hlif cascaded -f /p/scratch/project/user/fp64/obs_spitzer.fp64
